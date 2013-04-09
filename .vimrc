@@ -64,3 +64,6 @@ nnoremap <A-S-right> :vertical resize +5<cr>
 " Vim tab completion for filenames
 set wildmode=longest,list,full
 set wildmenu
+
+" set width
+set tw=80
