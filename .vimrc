@@ -43,6 +43,8 @@ map <C-F12> :!ctags * --c-types=+p --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 " Tab shortcuts
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
+nnoremap <Tab> :tabnext<CR>
+nnoremap <S-Tab> :tabprevious<CR>
 nnoremap <C-t> :tabe<CR>
 
 " PageUp PageDown shorrcuts
